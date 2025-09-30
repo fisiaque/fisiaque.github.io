@@ -1,0 +1,13 @@
+src/
+node_modules/
+dist/
+build/
+
+vite.config.js
+package.json
+package-lock.json
+HOWTO.txt
+
+*.log
+
+!docs/
