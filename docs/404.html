@@ -4,14 +4,10 @@
   <meta charset="UTF-8" />
   <title>404 — fisiaque</title>
   <script>
-    // GitHub Pages SPA redirect.
-    // Encode the current path into the query string so index.html's restore
-    // script can reconstruct it before React Router boots.
     (function () {
       var l = window.location;
       l.replace(
-        l.protocol + '//' + l.host + l.pathname.split('/')[1] +
-        '/?/' +
+        l.protocol + '//' + l.host + '/?/' +
         l.pathname.slice(1).replace(/&/g, '~and~') +
         (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
         l.hash
