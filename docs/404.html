@@ -7,8 +7,7 @@
     (function () {
       var l = window.location;
       l.replace(
-        l.protocol + '//' + l.host + l.pathname.split('/')[1] +
-        '/?/' +
+        l.protocol + '//' + l.host + '/?/' +
         l.pathname.slice(1).replace(/&/g, '~and~') +
         (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
         l.hash
