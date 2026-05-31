@@ -1,0 +1,8 @@
+{
+  "version": "1.0.0",
+  "files": {
+    "win": "win-x64.exe",
+    "mac": "mac-arm64.dmg",
+    "linux": "linux-x86_64.AppImage"
+  }
+}
